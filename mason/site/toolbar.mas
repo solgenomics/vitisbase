@@ -89,13 +89,9 @@
 	     link => '',
 	     desc => 'View and compare chromosomes from various organisms.',
 	     menu => [
-		      { name => 'Cacao Genetic Map',
-		        link => '/cview/map.pl?map_id=2',
-			desc => 'Cacao Genetic Map',
-		      },
-      		      { name => 'Cacao Sequence Map',
-			link => '/cview/map.pl?map_id=3',
-			desc => 'Cacao Sequence Map',
+		      { name => 'Genetic Map',
+		        link => '',
+			desc => 'Genetic Map',
 		      },
 
 		     ]
@@ -107,22 +103,11 @@
 	     desc => 'Cacao Genome Resources',
 	     menu => [
 		      {
-		       name => 'Cacao genome - CIRAD',
-		       link => 'http://cacao.sgn.cornell.edu/bin/gb2/gbrowse/cacao1/',
-		       desc => 'CIRAD Cocoa Assembly',
-		      },
-		      {
-		       name => 'Other sites',
+		       name => 'Genome browser',
 		       link => '',
-		       desc => 'Cacao genome browser',
-		       },
-
-		      {
-		       name => 'Cacao genome browser at Cacao Genome Database',
-		       link => 'http://www.cacaogenomedb.org/tools-anon/gbrowse',
-		       desc =>
-		       'The cacao genome on CGD, requires login.',
+		       desc => '',
 		      },
+
 		     ],
 	 },
 	 {
