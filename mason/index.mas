@@ -1,0 +1,38 @@
+<%args>
+$schema
+$static_content_path => undef
+</%args>
+
+<table cellpadding="0">
+
+<tr><td colspan="3">
+<br />
+<br />
+<center>
+<h1>Welcome to CacaoBase</h1>
+<br />
+<br />
+</center>
+
+<ul>
+<li><a href="/bin">Access old BLAST system</a></li>
+</ul>
+
+</td></tr>
+
+<tr>
+<td colspan="2">
+
+
+
+</td>
+</tr>
+
+
+</table>
+
+
+
+
+
+

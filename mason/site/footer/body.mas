@@ -1,0 +1,22 @@
+<%init>
+	my $feedback_email = eval{ $c->get_conf('email') };
+	$feedback_email = $feedback_email ? qq|<a class="footer" href="mailto:$feedback_email">$feedback_email</a>|
+	                                  : '<span style="font-weight: bold; color: red">[email not set]</b>';
+</%init>
+
+
+
+<!-- BEGIN FOOTER-->
+<br />
+<br />
+</td></tr>
+<tr><td height="2" bgcolor="lightgray"></td></tr>
+<tr><td>
+<span style="color:gray;  " class="tinytype">CacaoBase is based on <a class="footer" href="http://solgenomics.net">SGN</a> software.</span>
+
+
+</td></tr></table>
+
+   <!-- Google Analytics Code -->
+   <!-- Google Analytics Code moved to header -->
+
