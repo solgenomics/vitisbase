@@ -78,10 +78,10 @@
 <script>
   jQuery( function() { 
     jQuery('#list_dialog').dialog( { 
-      height: 200;
-      modal: true;
+      height: 200,
+      modal: true
+    });
   });
-  }
 
   function show_lists() { 
 
