@@ -1,31 +1,16 @@
 <%args>
 $schema
 $static_content_path => undef
+$show_accept_dialog => undef
 </%args>
 
 <center>
-<table cellpadding="0" border="0" alt="vitis home">
-
-<tr><td colspan="3">
-<br />
-<br />
-<center>
-<h1>Welcome to VitisBase</h1>
-<br />
-<br />
-<img src="http://www.natureandmore.com/products/grapes/image_preview" />
-</td></tr>
-
-<tr>
-<td colspan="2">
-
-</td>
-</tr>
-
-</table>
-
+<br/>
+<!-- & homepage/carousel.mas & -->
+<br/>
 </center>
 
+<br/>
 
 
-
+<& homepage/github_pullrequests.mas &>
