@@ -1,11 +1,11 @@
 
 <& /page/page_title.mas, title=>"MusaBase Help" &>
 
-<div>MusaBase is a breeding database implementing tools to manage data and next-generation breeding protocols based on high density marker data for banana species used as major food sources in Africa.</div>
+<div>Vitisbase is a breeding database implementing tools to manage data and next-generation breeding protocols for Vitis.</div>
 
 <h3>Manual</h3>
 
-<div>The MusaBase manual is available as a <a href="https://solgenomics.github.io/sgn/">Google Doc</a>. It was written for CassavaBase but MusaBase is based on CassavaBase, so the manual applies to MusaBase as well.</div>
+<div>The manual is available as a <a href="https://solgenomics.github.io/sgn/">Google Doc</a>. It was written for CassavaBase but Vitisbase is based on CassavaBase, so the manual applies to Vitisbase as well.</div>
 
 <h3>FAQ</h3>
 
