@@ -1,0 +1,47 @@
+format-version: 1.2
+ontology: Vitisbase_ontology
+default-namespace: Vitisbase_ontology
+
+[Term]
+id: VBTI:0000000
+name: VBTI
+
+[Term]
+id: VBTI:0000001
+name: Agronomic Traits
+is_a: VBTI:0000000
+
+[Term]
+id: VBTI:0000002
+name: DM_naturalseverity
+def: "Vineyard rating data, percent severity on most severely infected leaf in 10% increments, 0=0%, 10=100%, published in doi:10.1094/ PDIS-92-11-1577." []
+relationship: variable_of VBTI:0000001
+
+[Term]
+id: VBTI:0000003
+name: DM_natural5rating
+def: "Vineyard rating data, OIV452 descriptor recommended by 2018 The International Organization of Vine and Wine. http://www.oiv.int/public/medias/2274/code-2e-edition-finale.pdf" []
+relationship: variable_of VBTI:0000001
+
+[Term]
+id: VBTI:0000004
+name: Imaging Traits
+is_a: VBTI:0000000
+
+[Term]
+id: VBTI:0000005
+name: DMdisk_highresDivilovCV_6dpi
+def: "High resolution PMbot v3 leaf disk images at 6 days post-inoculation analyzed by Dani Martinez’s computer vision script that was adapted from Divilov et al. https://doi.org/10.1094/PHYTO-04-17-0137-R to measure the proportion of leaf disc area covered by sporangia." []
+relationship: variable_of VBTI:0000004
+
+[Term]
+id: VBTI:0000006
+name: DMdisk_highresnecrosis_2dpi
+def: "High resolution PMbot v3 leaf disk images at 2 days post-inoculation analyzed manually to quantify HR on 1-5 scale published by Divilov et al. doi: [10.1007/s00122-018-3065-y]" []
+relationship: variable_of VBTI:0000004
+
+[Term]
+id: VBTI:0000007
+name: DMdisk_5ratingKono_6dpi
+def: "High resolution PMbot v3 leaf disk images at 6 days post-inoculation analyzed manually to quantify sporangia on a 1-5 scale published by Kono et al. http://hortsci.ashspublications.org/content/50/5/656.full" []
+relationship: variable_of VBTI:0000004
